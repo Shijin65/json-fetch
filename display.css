@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #020631;
+  }
+  .main_container{
+  color: rgb(66, 166, 244);
+  background-color: rgb(255, 255, 255);
+  width: 460px;
+  height: 80vh;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  text-align: center;
+  }
+.todo_list{
+  align-items: center;
+  width: 50%;
+  background-color: gray;
+  width: 80%;
+  margin: 10%;
+  height:65vh;
+  border-radius: 8px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.todo_list::-webkit-scrollbar{
+  display: none;
+}
+.todo{
+  align-items: center;
+  background-color: rgb(252, 252, 252);
+  border-radius: 8px;
+  margin: 10px;
+}
