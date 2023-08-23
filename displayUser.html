@@ -8,12 +8,28 @@
 </head>
 <body>
     <div class="main_container">
-    <h1>TODO LIST</h1>
+    <h1 style="color: brown;"> FETCH DATA FROM JSON FILE</h1>
     <div class="todo_list">
+
+        
         <div class="todo">
             <p>hello this is a todo</p>
         </div>
+
+
     </div>
     </div>
+    <script>
+        let namel='';
+        fetch('user.json').then(Response => Response.json()).then(JSON => {
+            console.log(JSON.user)
+            JSON.user.forEach(user => {
+                namel +=`<p> ${user.name}</p> `
+            }); 
+           document.querySelector('.todo').innerHTML=namel;
+           console.log(namel)
+        });
+       
+    </script>
 </body>
 </html>

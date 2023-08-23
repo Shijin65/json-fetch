@@ -1,0 +1,31 @@
+{
+    "user":[
+        {
+            
+            "name": "Shijin",
+            "age": 20,
+            "skills":["javascript","node js","express js","CSS","HTML"]
+        },{
+            
+            "name": "haseeb",
+            "age": 20,
+            "skills":["javascript","node js","express js","CSS","HTML"]
+        },{
+            
+            "name": "megha",
+            "age": 21,
+            "skills":["javascript","node js","express js","CSS","HTML"]
+        },{
+            
+            "name": "diya",
+            "age": 20,
+            "skills":["javascript","node js","express js","CSS","HTML"]
+        },
+        {
+            
+            "name": "varsha",
+            "age": 20,
+            "skills":["javascript","node js","express js","CSS","HTML"]
+        }
+    ]
+}
